@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  margin: 50px auto;
+}
+
+.div2 {
+  box-sizing: border-box;
+  background-color: rgb(225, 55, 55);
+  width: 40%;
+  height: auto;
+  float: left;
+  margin: 5%;
+  border: 10px solid #ccc;
+}
+
+.div3 {
+  box-sizing: border-box;
+  background-color: rgb(53, 225, 73);
+  width: 40%;
+  height: auto;
+  float: right;
+  margin: 5%;
+  border: 10px solid #ccc;
+}
+
+.campo {
+  margin: 0;
+  padding-bottom: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.7em;
+  width: 100%;
+}
+
+button {
+  padding: 0.5em 2em;
+  border-bottom: 3px solid;
+  display: inline-block;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0c8cd3;
+  border-color: #04324c;
+  width: 40%;
+  clear: both;
+  margin: 16px;
+}
+
+button:active {
+  margin-top: 15px;
+  background-color: gray;
+  border-color: rgb(123, 110, 223);
+  border: 2px red solid;
+}
+
+label {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  color: #555;
+  display: block;
+  margin-bottom: 0.2em;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 3em;
+  display: block;
+}
+
+footer {
+  background-color: #18181a;
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  padding: 17px;
+  box-sizing: border-box;
+  margin-top: 180px;
+}
+
+.inner-footer {
+  display: inline-block;
+  margin: 0 auto;
+  height: 50px;
+  color: whitesmoke;
+}
+
+textarea {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  resize: vertical;
+  background-color: whitesmoke;
+}
