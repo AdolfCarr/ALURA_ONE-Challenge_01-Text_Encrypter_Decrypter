@@ -6,51 +6,52 @@
 	<title>Simple text encripter & decripter</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
 	<div class="container">
+		
 		<header>
 
-			<h1 class="container">Text Encripter and Decripter</h1>
-
+			<h1 class="text-center">Text Encripter and Decripter</h1>
+	
 		</header>
-
-		<main>
-			<form>
-				<div class="div2">
-					<label for="messageToProcess">Type only lower case letters, not special characters</label>
-					<!--<input id="typeMessage" type="text" placeholder="Type the message to encript or decript here"
+		<form>
+			<div class="div2">
+				<label for="messageToProcess">Type only lower case letters, not special characters</label>
+				<!--<input id="typeMessage" type="text" placeholder="Type the message to encript or decript here"
 						class="campo" required-->
-					<textarea placeholder="Write some text here... " id="messageToProcess" name="w3review" rows="4"cols="50" required></textarea>
-					<button id="encryptBoton">Encrypt</button>
-					<button id="decryptBoton">Decrypt</button>
-				</div>
-
-				<div class="div3">
-					<label for="Encripted">Message</label>
-					<!--<input id="Encripted" type="text" class="campo" required>-->
-					<textarea placeholder="Here is goning to appear the message processed" id="messageProcessed"
-						name="w3review" rows="4" cols="50" readonly></textarea>
-					<button id="copyBoton">Copy</button>
-				</div>
-			</form>
-		</main>
-	</div>
-	<div>
-		<footer>
-			<div class="inner-footer">
-				<p>Date:january 20, 2022; author:Carrillo Camacho Gustavo Adolfo</p>
-				<p>Challenge #01 from the ALURA-ONE digital evangelization program </p>
+				<textarea placeholder="Write some text here... " id="messageToProcess" name="w3review" rows="4"
+					cols="50" required></textarea>
+				<button id="encryptBoton">Encrypt</button>
+				<button id="decryptBoton">Decrypt</button>
 			</div>
-		</footer>
+
+			<div class="div3">
+				<label for="Encripted">Message</label>
+				<!--<input id="Encripted" type="text" class="campo" required>-->
+				<textarea placeholder="Here is goning to appear the message processed" id="messageProcessed"
+					name="w3review" rows="4" cols="50" readonly></textarea>
+				<button id="copyBoton">Copy</button>
+			</div>
+		</form>
 	</div>
+
+	<footer class="bg-light text-center text-lg-start">
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+			<p> © January 19, 2022, México, Author: Carrillo Camacho Gustavo Adolfo <br>
+				Alura-ONE First Challenge </p>
+		</div>
+	</footer>
+
 	<script src="js/encrypter.js"></script>
 	<script src="js/decrypter.js"></script>
 	<script src="js/encryptBoton.js"></script>
 	<script src="js/decryptBoton.js"></script>
 	<script src="js/copyBoton.js"></script>
-	
+
 </body>
 
 </html>
