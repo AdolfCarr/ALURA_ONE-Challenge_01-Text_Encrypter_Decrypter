@@ -17,9 +17,9 @@ encryptBoton.addEventListener("click", function (event) {
 
         let messageProcessed = document.querySelector("#messageProcessed");
 
-        messageProcessed.value = "Encrypted Message: " + message;
+        //messageProcessed.value = "Encrypted Message: " + message;
 
-        //messageProcessed.value = message;
+        messageProcessed.value = message;
     }
     text.value = "";
 });

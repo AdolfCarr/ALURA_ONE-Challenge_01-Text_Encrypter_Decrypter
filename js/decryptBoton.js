@@ -17,9 +17,9 @@ decryptBoton.addEventListener("click", function (event) {
 
         let messageProcessed = document.querySelector("#messageProcessed");
 
-        messageProcessed.value = "Decrypted Message: " + message;
+        //messageProcessed.value = "Decrypted Message: " + message;
 
-        //messageProcessed.value = message;
+        messageProcessed.value = message;
     }
     text.value = "";
 })
